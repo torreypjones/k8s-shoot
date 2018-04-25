@@ -5,4 +5,4 @@ RUN yum install -y buildah skopeo bind-utils telnet nmap nc net-tools iperf3 tcp
   && yum install -y https://lsm5.fedorapeople.org/centos-release-container-1-3.el7.noarch.rpm \
   && yum install -y cri-o buildah 
 
-RUN tail -f /dev/null
+CMD tail -f /dev/null
