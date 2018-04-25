@@ -8,4 +8,4 @@ first you'll need to build the docker image and put it in your own registry, i h
   kubectl run --image=k8s-shoot:latest k8s-shoot'
   
 or in openshift, you can do something like: 
-oc new-app --strategy=docker https://github.com/torreypjones/k8s-shoot.git
+oc new-app --strategy=docker  https://github.com/torreypjones/k8s-shoot.git
